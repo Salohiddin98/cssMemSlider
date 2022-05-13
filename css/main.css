@@ -43,7 +43,6 @@ body {
   font: italic 1.2em "Fira Sans", serif;
   font-size: 1.25rem;
   color: #a2c906;
-  background-color: #728285;
 }
 input {
   display: none;
@@ -80,19 +79,31 @@ input {
   z-index: 20;
 }
 
+#btn1 ~ .slider > .slide1,
+#btn2 ~ .slider > .slide2,
+#btn3 ~ .slider > .slide3,
+#btn4 ~ .slider > .slide4,
+#btn5 ~ .slider > .slide5 {
+  opacity: 0;
+}
 #btn1:checked ~ .slider > .slide1 {
+  opacity: 1;
   margin-left: 0;
 }
 #btn2:checked ~ .slider > .slide2 {
+  opacity: 1;
   margin-left: -20%;
 }
 #btn3:checked ~ .slider > .slide3 {
+  opacity: 1;
   margin-left: -40%;
 }
 #btn4:checked ~ .slider > .slide4 {
+  opacity: 1;
   margin-left: -60%;
 }
 #btn5:checked ~ .slider > .slide5 {
+  opacity: 1;
   margin-left: -80%;
 }
 #btn1:checked ~ .controls > #lb1,
