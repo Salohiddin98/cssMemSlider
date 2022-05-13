@@ -6,6 +6,9 @@
 body {
   background-color: #728285;
 }
+input {
+  display: none;
+}
 .container {
   margin: 2.5vh auto;
   width: 98vw;
@@ -44,9 +47,12 @@ body {
   font-size: 1.25rem;
   color: #a2c906;
 }
-input {
-  display: none;
+.slider__box span {
+  font-weight: bold;
+  color: gold;
+  margin-right: 0.5rem;
 }
+
 .controls {
   display: block;
   margin-top: -5vh;
