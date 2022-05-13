@@ -43,6 +43,7 @@ body {
   font: italic 1.2em "Fira Sans", serif;
   font-size: 1.25rem;
   color: #a2c906;
+  background-color: #728285;
 }
 input {
   display: none;
