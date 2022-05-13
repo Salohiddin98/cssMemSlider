@@ -6,6 +6,7 @@
 body {
   background-color: #728285;
   font: italic 1.2em "Fira Sans", serif;
+  font-size: 1.25rem;
 }
 .container {
   margin: 2.5vh auto;
@@ -22,7 +23,7 @@ body {
 }
 .slider__box {
   width: 20%;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   padding: 0.1%;
 }
 .slider__box img {
@@ -32,9 +33,24 @@ body {
   object-fit: fill;
   border-radius: 0.5rem;
   border: solid 0.1vw lightblue;
+  margin-bottom: 1rem;
+}
+.slider__box p {
+  display: block;
+  max-width: 80%;
+  height: 5vh;
+  margin-left: 1%;
+  text-align: left;
+  overflow-y: auto;
 }
 .slider input {
   display: none;
+}
+.controls {
+  display: block;
+  margin-top: -10vh;
+  margin-left: 90%;
+  z-index: 10;
 }
 .controls__label {
   display: inline-block;
