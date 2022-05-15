@@ -39,19 +39,14 @@ input {
 }
 .slider__box p {
   display: block;
-  max-width: 80%;
+  max-width: 75%;
   height: 5vh;
   padding-left: 1%;
   text-align: left;
-  overflow-y: auto;
+  overflow: auto;
   font: italic 1.2em "Fira Sans", serif;
   font-size: 1.25rem;
   color: #a2c906;
-}
-.slider__box span {
-  font-weight: bold;
-  color: gold;
-  margin-right: 0.5rem;
 }
 
 .controls {
