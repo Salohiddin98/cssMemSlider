@@ -79,7 +79,8 @@ input {
 }
 .controls__label:active {
   background: red;
-  transition: 0.25s;
+  transform: translateY(-20%);
+  transition: transform 0.2s;
 }
 .controls__label span {
   display: block;
