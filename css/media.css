@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 1vh auto;
+    width: 95vw;
+    height: 75vh;
+  }
+  .slider__box {
+    padding: 0.25%;
+  }
+  .slider__box img {
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+  .slider__box p {
+    max-width: 98%;
+    height: 25vh;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .controls {
+    margin-top: -30vh;
+    margin-left: 50%;
+  }
+  .controls__label {
+    border: solid 0.5vw lightblue;
+  }
+  .c .controls__label span {
+    transform: translate(-22.5%, -25%);
+  }
+}

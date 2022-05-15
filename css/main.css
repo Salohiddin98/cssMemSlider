@@ -14,10 +14,10 @@ input {
   margin: 2.5vh auto;
   width: 98vw;
   height: 95vh;
-  border-radius: 10px;
+  border-radius: 0.8rem;
   overflow: hidden;
   border: solid 0.1vw lightblue;
-  box-shadow: 0px 1px 5px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.05rem 0.2rem 0.25rem rgba(0, 0, 0, 0.2);
 }
 .slider {
   display: flex;
@@ -66,7 +66,7 @@ input {
   background-color: black;
   cursor: pointer;
   z-index: 10;
-  border: solid 0.25vw lightblue;
+  border: solid 0.15vw lightblue;
   transition: 0.5s;
   margin-left: 0.5rem;
 }
