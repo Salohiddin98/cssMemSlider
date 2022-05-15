@@ -13,8 +13,8 @@ input {
 }
 .container {
   margin: 2.5vh auto;
-  width: 80vw;
-  height: 95vh;
+  width: 70vw;
+  height: 96vh;
   border-radius: 0.8rem;
   overflow: hidden;
   border: solid 0.1vw lightblue;
@@ -44,7 +44,7 @@ input {
   justify-content: space-between;
 }
 .text {
-  width: 75%;
+  width: 80%;
 }
 .text p {
   height: 0;
@@ -56,10 +56,12 @@ input {
   color: #a2c906;
 }
 .controls {
-  width: 20vw;
+  display: flex;
+  justify-content: flex-end;
+  /* width: 25vw; */
+  margin-right: 1%;
 }
 .controls__label {
-  display: inline-block;
   width: 1.25rem;
   height: 1.25rem;
   border-radius: 0.8rem;
