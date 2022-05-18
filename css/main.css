@@ -48,6 +48,7 @@ input {
 }
 .text p {
   height: 0;
+  width: 0;
   opacity: 0;
   padding-left: 1%;
   text-align: left;
@@ -124,6 +125,7 @@ input {
 #btn4:checked ~ .content > .text > #t4,
 #btn5:checked ~ .content > .text > #t5 {
   height: 5vh;
+  width: auto;
   opacity: 1;
   transition: 1s;
 }
